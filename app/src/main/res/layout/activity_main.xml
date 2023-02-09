@@ -10,25 +10,30 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Main Activity"
+        android:text="Get Ones Name and Color"
         android:textSize="30dp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minHeight="60dp"
-        android:id="@+id/txtFromSecond"
-        android:textSize="25dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:text="Go to Second"
-        android:id="@+id/btnToSecond"/>
-    <EditText
+        android:textSize="20dp"
+        android:backgroundTint="@color/buttonGrey"
+        android:textColor="@color/black"
+        android:text="Get Ones Name"
+        android:id="@+id/btnToName"/>
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Write text here"
-        android:textSize="25dp"
-        android:id="@+id/txtToSecond"/>
+        android:id="@+id/txtFromName"
+        android:hint="Name goes here"
+        android:paddingHorizontal="30dp"
+        android:textSize="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttonGrey"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="Get Ones Color"
+        android:id="@+id/btnToColor"/>
 
 </LinearLayout>
